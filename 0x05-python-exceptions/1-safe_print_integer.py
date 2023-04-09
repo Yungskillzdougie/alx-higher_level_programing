@@ -12,6 +12,9 @@ def safe_print_interger(value):
     """
     Try:
         print("{:d}".format(value))
+
         return(True)
+
     except(TYpeError, ValueError):
+
         return(False)
